@@ -8,13 +8,11 @@
     --hover-blue: #188ce8;
   }
   body{
-    font-family: Roboto;
+    font-family:  'Roboto', sans-serif;
   }
-  .logo{
+  .header-logo{
     font-family: Raleway;
   }
- 
-  
   p {
     color:gray;
 }
@@ -44,3 +42,11 @@
     .logo-footer {
         font-family: Raleway;
     }
+.main-header {
+  background-color: #8000ff;
+  padding: 20px 0;
+  color: white;
+}
+ 
+ 
+ 
