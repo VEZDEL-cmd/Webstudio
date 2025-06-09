@@ -58,3 +58,23 @@ button {
   padding: 20px 0;
   color: white;
 }
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.business {
+  padding: 120px 0;
+}
+
+.features {
+  padding: 120px 0;
+}
+
+.work {
+  padding: 120px 0;
+}
