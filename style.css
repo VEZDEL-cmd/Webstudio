@@ -18,11 +18,18 @@ body {
   font-family: Raleway;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
 p {
   color: gray;
 }
 
-.img2 {
+.img {
   width: 500px;
   height: auto;
 }
@@ -36,7 +43,9 @@ button {
   color: #ffffff;
   padding: 100px 0;
   text-align: center;
+
 }
+
 
 .order-btn {
   background-color: #4d5ae5;
@@ -44,6 +53,9 @@ button {
 }
 
 .footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #2e2f42;
   color: #ffffff;
 
@@ -54,6 +66,7 @@ button {
 }
 
 .main-header {
+
   background-color: #8000ff;
   padding: 20px 0;
   color: white;
@@ -72,6 +85,9 @@ button {
 }
 
 .features {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
   padding: 120px 0;
 }
 
