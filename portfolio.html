@@ -5,97 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+        integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-top">
-            <a class="header-logo" href="#">WebStudio</a>
+    <header class="header container">
+        <a href="index.html" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#" class="nav-1">Студія</a>
+                </li>
+                <li>
+                    <a href="Portfolio.html" class="nav-2">Портфоліо</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-3">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="contacts">
+            <a href="mailto:info@devstudio.com" class="nav-4">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="nav-5">+38 096 111 11 11</a>
         </div>
-        <nav>
-            <ul class="header-nav-list">
-                <li class="header-nav-item"><a href="index.html">Home</a></li>
-                <li class="header-nav-item"> <a href="#">Студія</a></li>
-                <li class="header-nav-item"> <a href="#">Портфоліо</a></li>
-                <li class="header-nav-item"> <a href="#">Контакти</a></li>
-            </ul>
-        </nav>
-        <ul class="header-contacts">
-            <li class="header-contacts-item"><a href="mailto:info@gevstudio.com">info@gevstudio.com</a></li>
-            <li class="header-contacts-item"><a href="tel:+380981111111">+380 98 11 11 11 1</a></li>
-        </ul>
-        </nav>
     </header>
-    <mein>
-        <section>
-            <button class="btn filter-btn">Усі</button>
-            <button class="btn filter-btn">Веб-сайти</button>
-            <button class="btn filter-btn">Додатки</button>
-            <button class="btn filter-btn">Дизайн</button>
-            <button class="btn filter-btn">Маркетинг</button>
-            <ul class="header-nav-list">
-                <li>
-                    <img src="img/mac.pc.jpg" alt="mac.pc">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="img/volleyball.jpg" alt="volleyball">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
-
-                </li>
-                <li>
-                    <img src="img/fish.jpg" alt="fish">
-                    <h2>Ресторан Seafood</h2>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <img src="img/Headphone.jpg" alt="Headphone">
-                    <h2>Проєкт Prime</h2>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="img/postcards.jpg" alt="postcards">
-                    <h2>Проєкт Boxes</h2>
-                    <p>Додаток</p>
-                </li>
-                <li>
-                    <img src="img/mac.pc.jpg" alt="mac.pc">
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="img/magazine.jpg" alt="magazine">
-                    <h2>Видання Limited Edition</h2>
-                    <p style="color: gray;">Дизайн</p>
-                </li>
-                <li>
-                    <img src="img/tag.jpg" alt="tag">
-                    <h2>Проєкт LAB</h2>
-                    <p style="color: gray;">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="img/mac2.jpg" alt="mac2">
-                    <h2>Growing Business</h2>
-                    <p style="color: gray;">Додаток</p>
-                </li>
-            </ul>
+    <mein class="main">
+        <section class="items">
+            <div class="buttons container">
+                <button type="submit" class="main-button-1">Усі</button>
+                <button type="submit" class="main-button">Веб-сайти</button>
+                <button type="submit" class="main-button">Додатки</button>
+                <button type="submit" class="main-button">Дизайн</button>
+                <button type="submit" class="main-button">Маркетинг</button>
+                <ul class="items-list">
+                    <li>
+                        <img src="img/mac.jpg" alt="mac.pc" class="items-img" />
+                        <h2 class="items-title">Технокряк</h2>
+                        <p class="items-subtitle">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="img/volleyball.jpg" alt="volleyball" class="items-img" />
+                        <h2 class="items-title">Постер New Orlean vs Golden Star</h2>
+                        <p class="items-subtitle">Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="img/fish.jpg" alt="fish" class="items-img" />
+                        <h2 class="items-title">Ресторан Seafood</h2>
+                        <p class="items-subtitle">Додаток</p>
+                    </li>
+                    <li>
+                        <img src="img/Headphone.jpg" alt="Headphone" class="items-img" />
+                        <h2 class="items-title">Проєкт Prime</h2>
+                        <p class="items-subtitle">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="img/postcards.jpg" alt="postcards" class="items-img" />
+                        <h2 class="items-title">Проєкт Boxes</h2>
+                        <p class="items-subtitle">Додаток</p>
+                    </li>
+                    <li>
+                        <img src="img/mac.pc.jpg" alt="mac.pc" class="items-img" />
+                        <h2 class="items-title">Inspiration has no Borders</h2>
+                        <p class="items-subtitle">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="img/magazine.jpg" alt="magazine" class="items-img" />
+                        <h2 class="items-title">Видання Limited Edition</h2>
+                        <p class="items-subtitle">Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="img/tag.jpg" alt="tag" class="items-img" />
+                        <h2 class="items-title">Проєкт LAB</h2>
+                        <p class="items-subtitle">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="img/mac2.jpg" alt="mac2" class="items-img" />
+                        <h2 class="items-title">Growing Business</h2>
+                        <p class="items-subtitle">Додаток</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-    </mein>
-    <footer class="footer-section">
-        <h3 class="logo-footer">WebStudio</h3>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <p><a href="mailto:info@gevstudio.com">info@gevstudio.com</a></p>
-        <p><a href="tel:+380981111111">+380 98 11 11 11 1</a></p>
-    </footer>
+        <footer class="footer container">
+            <a href="index.html" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
+            <address class="address">
+                м. Київ, пр-т Лесі Українки, 26
+                <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
+                <a href="tel:+380961111111" class="address-link">+38 096 111 11 11</a>
+            </address>
+        </footer>
 </body>
 
 </html>
