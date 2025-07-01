@@ -7,6 +7,7 @@
   --footer-bg: #2f303a;
   --hover-blue: #188ce8;
 }
+
 body,
 html,
 body,
@@ -40,6 +41,7 @@ select {
 *::after {
   box-sizing: border-box;
 }
+
 img {
   display: block;
   height: auto;
@@ -75,7 +77,7 @@ iframe {
   border: 0;
 }
 
- 
+
 
 td,
 th {
@@ -86,21 +88,25 @@ a {
   text-decoration: none;
   color: currentColor;
 }
- .features-section-text.team-subtitle{
-  color:#757575;
- }
+
+.features-section-text.team-subtitle {
+  color: #757575;
+}
 
 body {
   font-family: "Jost";
 }
+
 .items-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
+
 .main-button-1 {
   margin-left: 450px;
 }
+
 .team {
   display: flex;
   justify-content: flex-start;
@@ -108,15 +114,24 @@ body {
   flex-wrap: nowrap;
   align-items: center;
 }
+
 .leisure-list {
   display: flex;
   gap: 30px;
   list-style-type: none;
 }
+
+.items-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
 }
+
 .business-section {
   justify-content: center;
   align-items: center;
@@ -125,38 +140,53 @@ body {
   display: flex;
   background-color: #2f303a;
 }
- .business-title{
-  color:white;
- }
- .business-button{
+
+.business-title {
+  color: white;
+}
+
+.business-button {
   background-color: #2196F3;
-color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; /* 187.5% */
-letter-spacing: 0.96px;
- }
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 187.5% */
+  letter-spacing: 0.96px;
+}
 
 .footer-address {
   display: flex;
 }
- .work-list{
- display: flex;
+
+.work-list {
+  display: flex;
   gap: 30px;
   list-style-type: none;
- }
- .work-title{
+}
+
+.work-title {
   text-align: center;
- }
-  .team-title{
-    text-align: center;
-  }
- 
+}
+
+.team-title {
+  text-align: center;
+}
+
 .web {
   color: #2196f3;
+  font-size: 26px;
+  font-family: Raleway;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  word-wrap: break-word;
+}
+
+.studio {
+  color: black;
   font-size: 26px;
   font-family: Raleway;
   font-weight: 700;
@@ -177,30 +207,35 @@ letter-spacing: 0.96px;
   display: flex;
   border-bottom: 1px solid #ccc;
 }
+
 .address {
   display: flex;
   flex-direction: column;
 }
+
 .contacts {
   column-gap: 50px;
   display: flex;
 }
- 
- 
+
+
 .container {
   width: 1200px;
   margin: 0 auto;
   padding-left: 12px;
   padding-right: 12px;
 }
+
 .nav {
   margin-right: 344px;
 }
+
 .nav-list {
   column-gap: 50px;
   display: flex;
   list-style: none;
 }
+
 .leisure {
   display: flex;
   justify-content: flex-start;
@@ -208,6 +243,7 @@ letter-spacing: 0.96px;
   flex-wrap: nowrap;
   align-items: center;
 }
+
 .items-title {
   color: var(--text-color);
   font-size: 18px;
@@ -216,6 +252,7 @@ letter-spacing: 0.96px;
   letter-spacing: 1.08px;
   word-wrap: break-word;
 }
+
 .leisure-title {
   color: var(--text-color);
   font-size: 36px;
@@ -223,6 +260,7 @@ letter-spacing: 0.96px;
   letter-spacing: 1.08px;
   word-wrap: break-word;
 }
+
 .nav-5 {
   text-decoration: none;
   color: var(--text-color);
@@ -232,12 +270,15 @@ letter-spacing: 0.96px;
   letter-spacing: 0.28px;
   word-wrap: break-word;
 }
+
 .nav-4:hover {
   color: var(--logo-color-2);
 }
+
 .nav-5:hover {
   color: var(--logo-color-2);
 }
+
 .nav-4 {
   text-decoration: none;
   color: var(--text-color);
@@ -247,6 +288,7 @@ letter-spacing: 0.96px;
   letter-spacing: 0.28px;
   word-wrap: break-word;
 }
+
 .nav-2 {
   text-decoration: none;
   color: var(--text-color);
@@ -256,6 +298,7 @@ letter-spacing: 0.96px;
   letter-spacing: 0.28px;
   word-wrap: break-word;
 }
+
 .main-list {
   display: flex;
   list-style-type: none;
@@ -264,9 +307,11 @@ letter-spacing: 0.96px;
 .nav-2:hover {
   color: var(--logo-color-2);
 }
+
 .nav-3:hover {
   color: var(--logo-color-2);
 }
+
 .nav-3 {
   text-decoration: none;
   color: var(--text-color);
@@ -276,9 +321,11 @@ letter-spacing: 0.96px;
   letter-spacing: 0.28px;
   word-wrap: break-word;
 }
+
 .nav-1:hover {
   color: var(--logo-color-2);
 }
+
 .nav-1 {
   text-decoration: none;
   color: var(--text-color);
@@ -288,14 +335,14 @@ letter-spacing: 0.96px;
   letter-spacing: 0.28px;
   word-wrap: break-word;
 }
- 
- 
+
+
 .logo {
   text-decoration: none;
   font-family: "Raleway";
 }
- 
-  
+
+
 .team-subtitle {
   color: var(--text-color2);
   font-size: 16px;
@@ -303,7 +350,7 @@ letter-spacing: 0.96px;
   letter-spacing: 0.48px;
   word-wrap: break-word;
 }
+
 body {
   font-family: "Roboto";
 }
- 
