@@ -354,3 +354,42 @@ body {
 body {
   font-family: "Roboto";
 }
+ .advantages-item{
+  position: relative;
+  padding-top: 100px; 
+  text-align: center;
+}
+.advantages-item::before {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+ .advantages-item:nth-child(1)::before {
+  background-image: url("img/antenna\ 1.svg");
+}
+
+.advantages-item:nth-child(2)::before {
+  background-image: url("img/clock\ 1.svg");
+}
+
+.advantages-item:nth-child(3)::before {
+  background-image: url("img/diagram\ 1.svg");
+}
+
+.advantages-item:nth-child(4)::before {
+  background-image: url("img/astronaut\ 1.svg");
+}
+
+ 
+
+
+
+
+ 
