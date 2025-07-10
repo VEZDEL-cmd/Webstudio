@@ -177,22 +177,12 @@ body {
 
 
 .business-section {
-  background-image: url("img/Img\ Overlay\ \(2\).jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  padding: 200px 0;
-  text-align: center;
-  color: white;
-  position: relative;
-  z-index: 1;
-  /* justify-content: center;
+  justify-content: center;
   align-items: center;
   text-align: center;
   height: 600px;
-  display: flex; */
-  /* background-color: #2f303a; */
+  display: flex;
+  background-color: #2f303a;
 
 }
 
@@ -227,9 +217,110 @@ body {
 .work-title {
   text-align: center;
 }
+.work-team{
+background-color: #f5f4fa;
+}
+.team-title{
+    display: flex;
+    padding-left: 453px;
+    margin: 0 0 0 0;
+    padding-bottom: 50px;
+    padding-top: 94px;
+}
+.team-name{
+    color:#212121;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;    
+    letter-spacing: 0.48px; 
+    
+}
+.team-subtitle{
+    color:#757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    
+     
+ 
+ 
+}
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+    column-gap: 30px;
+}
+.team-li{
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 0px 0px 4px 4px;
+    background-color:#FFFFFF;
+}
+.team-img{
+   
+    padding-bottom: 30px;
+    
+}
+.team-name{
+    padding-bottom: 10px;
+}
+.team-subtitle{
+    padding-bottom: 30px;
+}
+.portfolio-li{
+  border: 1px solid #EEE;
+}
+.portfolio-li:hover{
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+ 
 
-.team-title {
-  text-align: center;
+}
+.buttons{
+      border-radius: 4px;
+    background: #f5f4fa; 
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625; /* 162.5% */
+    letter-spacing: 0.48px;   
+    padding: 6px 22px;
+    flex-shrink: 0;
+}
+.portfolio-ulbuttons{
+   display: flex;
+    column-gap: 8px;
+    margin: 0 auto;
+    justify-content: center;
+    width: auto;
+    padding: 94px 0;
+    white-space: nowrap;
+}
+.portfolio-button{
+    border-radius: 4px;
+    background: #f5f4fa; 
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625; /* 162.5% */
+    letter-spacing: 0.48px;   
+    padding: 6px 22px;
+    flex-shrink: 0;
+}
+.portfolio-button:hover{
+    border-radius: 4px;
+    background: #2196f3;
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;  
+    letter-spacing: 0.48px;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);  
 }
 
 .web {
@@ -301,7 +392,7 @@ body {
 }
 
 .items-title {
-  color: var(--text-color);
+  color: #212121;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -310,7 +401,7 @@ body {
 }
 
 .leisure-title {
-  color: var(--text-color);
+  color: #212121;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
@@ -320,7 +411,7 @@ body {
 
 .nav-5 {
   text-decoration: none;
-  color: var(--text-color);
+  color:#212121;
   font-size: 14px;
   font-family: Roboto;
   font-weight: 500;
@@ -329,16 +420,16 @@ body {
 }
 
 .nav-4:hover {
-  color: var(--logo-color-2);
+  color: #2196F3;
 }
 
 .nav-5:hover {
-  color: var(--logo-color-2);
+  color: #2196F3;
 }
 
 .nav-4 {
   text-decoration: none;
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-family: Roboto;
   font-weight: 500;
@@ -348,7 +439,7 @@ body {
 
 .nav-2 {
   text-decoration: none;
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-family: Roboto;
   font-weight: 500;
@@ -362,16 +453,16 @@ body {
 }
 
 .nav-2:hover {
-  color: var(--logo-color-2);
+  color: #2196F3;
 }
 
 .nav-3:hover {
-  color: var(--logo-color-2);
+  color: #2196F3;
 }
 
 .nav-3 {
   text-decoration: none;
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-family: Roboto;
   font-weight: 500;
@@ -380,12 +471,12 @@ body {
 }
 
 .nav-1:hover {
-  color: var(--logo-color-2);
+  color: #2196F3;
 }
 
 .nav-1 {
   text-decoration: none;
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-family: Roboto;
   font-weight: 500;
@@ -401,7 +492,7 @@ body {
 
 
 .team-subtitle {
-  color: var(--text-color2);
+  color:#757575;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
