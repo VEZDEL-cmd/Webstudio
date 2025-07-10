@@ -127,19 +127,75 @@ body {
   gap: 30px;
 }
 
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+  column-gap: 30px;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
+  background-color: #2f303a;
+}
+.logo-footer{
+  padding: 60px 0 20px;
+}
+.studio-footer{
+  color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+.address-link{
+  color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71429;
+    letter-spacing: 0.42px;
+}
+.footer-location{
+    color:  #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71429; 
+    letter-spacing: 0.42px;
 }
 
+
+
+.footer-div{
+    display: flex;
+    padding-bottom: 60px;
+    flex-direction: column;
+    row-gap: 9px;
+}
+
+
 .business-section {
-  justify-content: center;
+  background-image: url("img/Img\ Overlay\ \(2\).jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+  /* justify-content: center;
   align-items: center;
   text-align: center;
   height: 600px;
-  display: flex;
-  background-color: #2f303a;
+  display: flex; */
+  /* background-color: #2f303a; */
+
 }
+
 
 .business-title {
   color: white;
@@ -261,6 +317,7 @@ body {
   word-wrap: break-word;
 }
 
+
 .nav-5 {
   text-decoration: none;
   color: var(--text-color);
@@ -354,42 +411,65 @@ body {
 body {
   font-family: "Roboto";
 }
- .advantages-item{
-  position: relative;
-  padding-top: 100px; 
-  text-align: center;
+
+.advantages-item {
+  width: 270px;
+  text-align: left;
+
 }
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 94px 0;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+
+}
+
+
+.features-text {
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71429;
+  letter-spacing: 0.42px;
+}
+
 .advantages-item::before {
   content: "";
   display: block;
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  top: 0;
-  left: 50%;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
+  background-size: 70px;
+  margin-bottom: 30px;
 }
- .advantages-item:nth-child(1)::before {
+
+.advantages-item:nth-child(1)::before {
+
   background-image: url("img/antenna\ 1.svg");
+
 }
 
 .advantages-item:nth-child(2)::before {
+
   background-image: url("img/clock\ 1.svg");
+
 }
 
 .advantages-item:nth-child(3)::before {
+
   background-image: url("img/diagram\ 1.svg");
+
 }
 
 .advantages-item:nth-child(4)::before {
+
   background-image: url("img/astronaut\ 1.svg");
+
 }
-
- 
-
-
-
-
- 
