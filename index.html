@@ -40,48 +40,48 @@
 
       <div>
   </header>
-  
-<div class="callback-modal is-hidden" id="callbackModal" data-modal>
-  <div class="callback-modal__content">
-    <span class="callback-modal__close" data-modal-close>&times;</span>
-    <h2 class="input-text" >Залиште свої дані, ми вам передзвонимо</h2>
-    
-    <form class="callback-form">
-      <div class="callback-form__group">
-        <span class="callback-form__label">Ім'я</span>
-        <svg class="callback-form__icon" width="18" height="18">
-          <use href="img/SPRITE-ORG.svg#icon-person-black"></use>
-        </svg>
-        <input type="text"  required>
-      </div>
 
-      <div class="callback-form__group">
-        <span class="callback-form__label">Телефон</span>
-        <svg class="callback-form__icon"  width="18" height="18">
-          <use href="img/SPRITE-ORG.svg#icon-phone-black"></use>
-        </svg>
-        <input type="tel"   required>
-      </div>
+  <div class="callback-modal is-hidden" id="callbackModal" data-modal>
+    <div class="callback-modal__content">
+      <span class="callback-modal__close" data-modal-close>&times;</span>
+      <h2 class="input-text">Залиште свої дані, ми вам передзвонимо</h2>
 
-      <div class="callback-form__group">
-        <span class="callback-form__label">Пошта</span>
-        <svg class="callback-form__icon"  width="18" height="18">
-          <use href="img/SPRITE-ORG.svg#icon-email-black" ></use>
-        </svg>
-        <input type="email"  required>
-      </div>
-       <span class="callback-form__label">Коментар</span>
-      <textarea placeholder="Введіть текст"></textarea>
+      <form class="callback-form">
+        <div class="callback-form__group">
+          <span class="callback-form__label">Ім'я</span>
+          <svg class="callback-form__icon" width="18" height="18">
+            <use href="img/SPRITE-ORG.svg#icon-person-black"></use>
+          </svg>
+          <input type="text" required>
+        </div>
 
-      <label class="callback-form__checkbox">
-        <input type="checkbox" required>
-        Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
-      </label>
+        <div class="callback-form__group">
+          <span class="callback-form__label">Телефон</span>
+          <svg class="callback-form__icon" width="18" height="18">
+            <use href="img/SPRITE-ORG.svg#icon-phone-black"></use>
+          </svg>
+          <input type="tel" required>
+        </div>
 
-      <button type="submit" class="callback-form__submit">Відправити</button>
-    </form>
+        <div class="callback-form__group">
+          <span class="callback-form__label">Пошта</span>
+          <svg class="callback-form__icon" width="18" height="18">
+            <use href="img/SPRITE-ORG.svg#icon-email-black"></use>
+          </svg>
+          <input type="email" required>
+        </div>
+        <span class="callback-form__label">Коментар</span>
+        <textarea placeholder="Введіть текст"></textarea>
+
+        <label class="callback-form__checkbox">
+          <input type="checkbox" required>
+          Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
+        </label>
+
+        <button type="submit" class="callback-form__submit">Відправити</button>
+      </form>
+    </div>
   </div>
-</div>
 
 
   <main>
@@ -389,12 +389,25 @@
             </li>
           </ul>
         </div>
-
-
       </div>
     </div>
+    <div class="form-div">
+       <span class="form-span">Підпишіться на розсилку</span>
+    <form class="subscribe-form">
+      <input type="email" placeholder="E-mail" required class="form-input">
+      <button type="submit" class="form-button">
+        Підписатися
+        <svg class="form-button__icon" width="24" height="24">
+          <use href="img/SPRITE-ORG.svg#icon-icon"></use>
+        </svg>
+      </button>
+    </form>
+    </div>
+
+
+
   </footer>
-   <script src="./modal.js"></script>
+  <script src="./modal.js"></script>
 </body>
 
 </html>
