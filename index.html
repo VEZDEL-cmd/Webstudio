@@ -20,9 +20,9 @@
     <a href="index.html" class="logo"><span class="web">Web</span><span class="studio">Studio</span></a>
     <nav class="nav">
       <ul class="nav-list">
-        <li class="nav-1" data-modal-open><a href="#">Студія</a></li>
-        <li class="nav-2"><a href="portfolio.html">Портфоліо</a></li>
-        <li class="nav-3"><a href="#">Контакти</a></li>
+        <li class="nav-1"><a href="index.html" class="nav-page choosen">Студія</a></li>
+        <li class="nav-2"><a href="portfolio.html"class="nav-page ">Портфоліо</a></li>
+        <li class="nav-3"><a href="#" class="nav-page ">Контакти</a></li>
       </ul>
     </nav>
     <div class="contacts">
@@ -84,11 +84,12 @@
   </div>
 
 
+
   <main>
     <section class="business-section">
       <div class="container">
         <h1 class="business-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-        <button type="submit" class="business-button">Замовити послуги</button>
+        <button type="submit" class="business-button" data-modal-open>Замовити послуги</button>
       </div>
     </section>
     <section class="advantages">
@@ -391,17 +392,19 @@
         </div>
       </div>
     </div>
-    <div class="form-div">
-       <span class="form-span">Підпишіться на розсилку</span>
-    <form class="subscribe-form">
-      <input type="email" placeholder="E-mail" required class="form-input">
-      <button type="submit" class="form-button">
-        Підписатися
-        <svg class="form-button__icon" width="24" height="24">
-          <use href="img/SPRITE-ORG.svg#icon-icon"></use>
-        </svg>
-      </button>
-    </form>
+    <div class="container">
+      <div class="form-div">
+        <span class="form-span">Підпишіться на розсилку</span>
+        <form class="subscribe-form">
+          <input type="email" placeholder="E-mail" required class="form-input">
+          <button type="submit" class="form-button">
+            Підписатися
+            <svg class="form-button__icon" width="24" height="24">
+              <use href="img/SPRITE-ORG.svg#icon-icon"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
 
 
