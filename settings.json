@@ -1,0 +1,25 @@
+{
+    "explorer.confirmDelete": false,
+    "files.autoSave": "onFocusChange",
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "html.autoClosingTags": false,
+    "editor.autoClosingBrackets": "never",
+    "liveSassCompile.settings.generateMap": true, // вимикаємо генерацію карти стилів
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded", // розширений, або стиснутий формат стилів
+            "autoprefix": "last 5 versions", // компілятор буде додавати префікси кросбраузерності для останніх 5 версій відомих браузерів
+            "extensionName": ".css", // розширення вихідного файлу
+            "savePath": "css" // папка, у яку буде компілюватись файл стилів
+        },
+        {
+            "format": "compressed",
+            "autoprefix": "last 5 versions",
+            "extensionName": ".min.css",
+            "savePath": "css"
+        }
+    ],
+} 
